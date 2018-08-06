@@ -1,20 +1,47 @@
-<!DOCTYPE htmk>
-<html>
+<!-- CSS Stylesheets with Relative Paths -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Stylesheets with Relative Paths</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
 
 <body>
-    <strong><h1>Student Bio</h1></strong>
-    <strong><h2>Simin Shamsfallah</h2></strong>
-    <img src="Simin.jpg" height="370" width+"370"></img>
-<p>I grew up in Tehran, Iran, and got my BS in Computer Science from Worcester State University.</p>
-<p>I am working for a medical company in Bay Area as a Regulatory Affairs Consultant for almost two years.</p>
-   
+    <header>
+        <h1>Student Bio</h1>
+    </header>
+    <div class="container">
+        <section id="main-bio">
 
-    <strong><h2>Contact Info</h2></strong>
-    <ul>
-        <li><strong>Email: </strong><a href ="mailto:simin.shf@gmail.com" >simin.shf@gmail.com</a> </li>
-        <li><strong>Github: </strong><a href="https://github.com/siminshams" target="_blsnk">siminshams</a></li>
-        <li><strong>Portfolio: </strong> <a href="#">coming soon</a></li>
-    </ul>
+            <h2>Simin Shamsfallah</h2>
+            <img id="bio-image" src="Simin.jpg" alt="Simin Shamsfallah" width="20%"></img>
+            <p>I grew up in Tehran, Iran, and got my BS in Computer Science from Worcester State University.</p>
+            <p>I am working for a medical company in Bay Area as a Regulatory Affairs Consultant for almost two years.</p>
+        </section>
+
+        <section id="contact-info">
+
+            <h2>Contact Info</h2>
+
+            <ul>
+                <li>
+                    <strong>Email: </strong>
+                    <a href="mailto:simin.shf@gmail.com">simin.shf@gmail.com</a>
+                </li>
+                <li>
+                    <strong>Github: </strong>
+                    <a href="https://github.com/siminshams" target="_blank">siminshams</a>
+                </li>
+                <li>
+                    <strong>Portfolio: </strong>
+                    <a href="#">coming soon</a>
+                </li>
+            </ul>
+        </section>
+    </div>
 </body>
 
 </html>
